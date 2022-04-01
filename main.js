@@ -1,7 +1,7 @@
 
 // setting up canvas and constants
-const rows = 25;
-const columns = 25;
+const rows = 100;
+const columns = 100;
 const cell_size = 20; // 20x20 grid
 
 const c = document.querySelector('canvas');
@@ -11,7 +11,7 @@ const ctx = c.getContext('2d');
 var mouse = {x: undefined, y: undefined, isClicked: false};
 var grid, swatch;
 
-const def_color_array = ["#35D461", "#F9E104", "#F99D07", "#882FF6", "#37B6F6"];
+const def_color_array = ["#FFFFFF","#E4E4E4","#888888","#222222","#FFA7D1","#E50000","#E59500","#A06A42","#E5D900","#94E044","#02BE01","#00D3DD","#0083C7","#0000EA","#CF6EE4","#820080"];
 
 /// MOUSE INPUT SECTION
 c.addEventListener("mousemove",(e)=> {
